@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:name="com.bytebyte6.view.RtmpApp"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher_round"
